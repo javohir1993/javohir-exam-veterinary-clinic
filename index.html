@@ -3,16 +3,258 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Javohir Exam Veterinary Clinic Project</title>
   <link rel="stylesheet" href="css/styles.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
 </head>
 <body>
 
+  <!-- HEADER -->
+
   <header class="site-header">
-    
-  </header>
+    <div class="container site-header__container">
+
+      <a class="site-header__logo-link" href="index.html">
+        <img class="site-header__logo-img" src="img/logo-header.svg" alt="Veterinary Clinic site logo" width="178" height="86">
+      </a>
+
+      <div class="site-header__top">
+
+        <address class="site-header__top-address">г. Мариуполь, проспект Победы, 48а</address>
+
+        <ul class="site-header__top-list">
+          <li class="site-header__top-item">
+            <a class="site-header__top-tellink" href="tel:+0676347574">(067) 634 -75 - 74</a>
+          </li>
+          <li class="site-header__top-item">
+            <a class="site-header__top-tellink" href="tel:+0637570131">(0637) 57 - 01 - 31</a>
+          </li>
+          <li class="site-header__top-item">
+            <a class="site-header__top-tellink" href="tel:+0982664389">(098) 266 - 43 - 89</a>
+          </li>
+        </ul>
+
+        <div class="site-header__top-time">
+          <p class="site-header__top-datetime site-header__top-datetime--left">Пн - Пт <time datetime="2020-10-24 08:00">8:00</time> - <time datetime="2020-10-24 18:00">18:00</time></p>
+          <p class="site-header__top-datetime">Сб - Вс <time datetime="2020-10-24 08:00">8:00</time> - <time datetime="2020-10-24 14:00">14:00</time></p>
+        </div>
+
+      </div><!-- site-header__top -->
+
+      <div class="site-header__bottom">
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Главная</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">О Клинике</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Наши Услуги</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Полезные Статьи</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">FAQ</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a class="ask-question-link" href="#" target="_blank">Задать вопрос</a>
+      </div>
+    </div><!-- container site-header__container -->
+  </header><!-- site-header -->
+
+
+  <!-- MAIN -->
+
+  <main>
+
+    <!-- SITEDEMO -->
+
+    <div class="sitedemo">
+      <div class="container">
+        <div class="sitedemo-info">
+          <h1 class="site-title">Мы заботимся о <span class="site-title__decoration">ваших питомцах!</span></h1>
+          <p class="sitedemo__text">Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.</p>
+          <a class="button sitedemo__button" href="#">Наши услуги</a>
+        </div>
+      </div>
+    </div><!-- sitedemo -->
+
+
+    <!-- ABOUT -->
+
+    <section class="about">
+      <div class="container">
+        <h2 class="visually-hidden">About us</h2>
+        <div class="about-info">
+          <h3 class="about-title">Оржоникидзевская Ветеринарная клиника</h3>
+          <blockquote class="about-quote">Наша ветеринарная клиника готова уделить максимум внимания Вам и Вашему питамцу. Здоровье и благополучие Ваших животных очень важно для нас и мы стремимся оказать наилучшую возможную ветеринарную помощь.</blockquote>
+        </div>
+      </div>
+    </section><!-- about -->
+
+
+    <!-- SERVICES -->
+
+    <section class="services">
+      <div class="container">
+        <h2 class="services-title">Наши услуги</h2>
+
+        <section class="our-services">
+          <button class="services__button services__button--pre" type="button" aria-label="Preview button"></button>
+          <button class="services__button services__button--next" type="button" aria-label="Next button"></button>
+          <ul class="services__list">
+            <li class="services__item sevices__item-active">
+              <a class="services__link services__link-initial" href="#">
+                <h3 class="services__item-title">Первичный осмотр</h3>
+              </a>
+            </li>
+            <li class="services__item">
+              <a class="services__link services__link-inspection" href="#">
+                <h3 class="services__item-title">Первичный осмотр</h3>
+              </a>
+            </li>
+            <li class="services__item">
+              <a class="services__link services__link-surgery" href="#">
+                <h3 class="services__item-title">Хирургическое вмешательство</h3>
+              </a>
+            </li>
+            <li class="services__item">
+              <a class="services__link services__link-dermatology" href="#">
+                <h3 class="services__item-title">Дерматология</h3>
+              </a>
+            </li>
+            <li class="services__item">
+              <a class="services__link services__link-diagnostic" href="#">
+                <h3 class="services__item-title">Лабораторная диагностика</h3>
+              </a>
+            </li>
+            <li class="services__item">
+              <a class="services__link services__link-ophthalmology" href="#">
+                <h3 class="services__item-title">Офтальмология</h3>
+              </a>
+            </li>
+            <li class="services__item services__item--next">
+              <a class="services__link services__link-uzi" href="#">
+                <h3 class="services__item-title">УЗИ диагностика</h3>
+              </a>
+            </li>
+            <li class="services__item services__item--next">
+              <a class="services__link services__link-chipping" href="#">
+                <h3 class="services__item-title">Чипирование</h3>
+              </a>
+            </li>
+            <li class="services__item services__item--next">
+              <a class="services__link services__link-passport" href="#">
+                <h3 class="services__item-title">Международные паспорта</h3>
+              </a>
+            </li>
+            <li class="services__item services__item--next">
+              <a class="services__link services__link-vaksina" href="#">
+                <h3 class="services__item-title">Вакцинация</h3>
+              </a>
+            </li>
+            <li class="services__item services__item--next">
+              <a class="services__link services__link-dentistry" href="#">
+                <h3 class="services__item-title">Стоматология</h3>
+              </a>
+            </li>
+            <li class="services__item services__item--next">
+              <a class="services__link services__link-call" href="#">
+                <h3 class="services__item-title">Вызов на дом</h3>
+              </a>
+            </li>
+          </ul>
+        </section><!-- our-services -->
+
+        <section class="our-services__item">
+          <ul class="service__list">
+            <li class="service__item">
+              <section class="service__info">
+                <h3 class="service__title">Первичный осмотр</h3>
+                <p class="service-text service-text-top">По условиям акции в нашей клинике предоставляетса безплатная услуга “Дневной стационар” которая позволяет экономить Ваше время. Вы имеете возможность оставить у нас.</p>
+                <p class="service-text service-text-bottom">По условиям акции в нашей клинике предоставляетса безплатная услуга “Дневной стационар” которая позволяет экономить Ваше время. Вы имеете возможность оставить у нас.</p>
+                <a class="button service__button service__price-button" href="#">Узнать цену</a>
+                <a class="button service__button service__appoitment-button" href="#">Записаться на приём</a>
+              </section>
+
+              <img class="service__img" src="img/service-cat.jpg" alt="Doctor is examining the cat" width="524" height="329">
+            </li>
+          </ul>
+        </section>
+      </div><!-- container -->
+    </section><!-- sercices -->
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="site-footer">
+    <div class="container">
+      <section class="site-footer__top">
+        <a class="site-footer__logo-link" href="index.html">
+          <img class="site-footer__logo-img" src="img/logo-header.svg" alt="Veterinary Clinic site logo" width="178" height="86">
+        </a>
+
+        <ul class="footernav__list footernav__list-left">
+          <li class="footernav__item">
+            <a class="footernav__link" href="#">Главная</a>
+          </li>
+          <li class="footernav__item">
+            <a class="footernav__link" href="#">О Клинике</a>
+          </li>
+          <li class="footernav__item">
+            <a class="footernav__link" href="#">Наши Услуги</a>
+          </li>
+        </ul>
+
+        <ul class="footernav__list footernav__list-right">
+          <li class="footernav__item">
+            <a class="footernav__link" href="#">Полезные Статьи</a>
+          </li>
+          <li class="footernav__item">
+            <a class="footernav__link" href="#">FAQ</a>
+          </li>
+          <li class="footernav__item">
+            <a class="footernav__link" href="#">Контакты</a>
+          </li>
+        </ul>
+
+        <div class="site-footer-time">
+          <p class="site-footer-datetime site-footer-datetime--top">Пн - Пт <time datetime="2020-10-24 08:00">8:00</time> - <time datetime="2020-10-24 18:00">18:00</time></p>
+          <p class="site-footer-datetime">Сб - Вс <time datetime="2020-10-24 08:00">8:00</time> - <time datetime="2020-10-24 14:00">14:00</time></p>
+        </div>
+
+        <address class="site-footer__address">г. Мариуполь,<br>проспект Победы, 48а</address>
+
+        <ul class="site-footer__calls">
+          <li class="site-footer__call">
+            <a class="site-footer__call-link" href="tel:+0676347574">(067) 634 -75 - 74</a>
+          </li>
+          <li class="site-footer__call">
+            <a class="site-footer__call-link" href="tel:+0637570131">(0637) 57 - 01 - 31</a>
+          </li>
+          <li class="site-footer__call">
+            <a class="site-footer__call-link" href="tel:+0982664389">(098) 266 - 43 - 89</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="site-footer__bottom">
+        <p class="site-footer__bottom-info">© 2020 example. All Rights Reserved.</p>
+      </section>
+
+    </div><!-- container -->
+  </footer><!-- site-footer -->
 
 </body>
 </html>
